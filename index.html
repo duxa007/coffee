@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,51 +10,61 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <nav class="nav">
+    <div class="menu">
+        <p class="menu__line"></p>
+        <p class="menu__line"></p>
+        <p class="menu__line"></p>
+    </div>
+    <a href="index.html" class="nav__logo"><img class="nav__logo" src="svg/logo.svg"></a>
+    <nav class="nav-text">
+        <a href="#*" class="nav-text__link">Каталог товаров</a>
+        <a href="#*" class="nav-text__link">Блог</a>
+        <a href="#*" class="nav-text__link">Контакты</a>
+    </nav>
+    <nav class="nav-icon">
+        <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/search.svg"></a>
+        <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/basket.svg"></a>
+        <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/login.svg"></a>
+    </nav>
+</nav>
     <div class="container">
-        <nav class="nav">
-            <img class="nav__logo" src="svg/logo.svg">
-            <nav class="nav-text">
-                <a href="#*" class="nav-text__link">Каталог товаров</a>
-                <a href="#*" class="nav-text__link">Блог</a>
-                <a href="#*" class="nav-text__link">Контакты</a>
-            </nav>
-            <nav class="nav-icon">
-                <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/search.svg"></a>
-                <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/basket.svg"></a>
-                <a href="#*" class="nav-icon__link"><img class="nav-icon__img" src="svg/login.svg"></a>
-            </nav>
-        </nav>
         <div class="main">
-            <div class="main-text">
-                <h1 class="main-text__title">Свежеобжаренный кофе</h1>
-                <div class="main-text__subtitle-block">
-                    <p class="main-text__subtitle">Кофе Калининградской обжарки из разных стран произрастания с доставкой на дом.</p>
-                    <p class="main-text__subtitle">Мы обжариваем кофе <span class="main-text__subtitle__fat">каждые выходные.</span></p>
+            <h1 class="main-text__title">Свежеобжаренный кофе</h1>
+            <div class="main__block">
+                <div class="main-text">
+                    <div class="main-text__subtitle-block">
+                        <p class="main-text__subtitle">Кофе Калининградской обжарки из разных стран произрастания с доставкой на дом.</p>
+                        <p class="main-text__subtitle">Мы обжариваем кофе <span class="main-text__subtitle__fat">каждые выходные.</span></p>
+                    </div>
+                    <button class="button__main">Посмотреть каталог</button>
                 </div>
-                <button class="button__main">Посмотреть каталог</button>
+                <div class="main__container">
+                    <img class="main__container-img" src="png/logo-img.png">
+                </div>
             </div>
-            <img class="main-img" src="png/logo-img.png">
+            <button class="button__main__mobile">Посмотреть каталог</button>
         </div>
         <div class="catalog">
             <h3 class="catalog__title">Каталоги нашей продукции</h3>
             <div class="catalog__container">
                 <div class="catalog__block">
-                    <div class="catalog__block-img"><img src="png/catalog1.png"></div>
+                    <div class="catalog__block-img"><img class="catalog__block-img-png"src="png/catalog1.png"></div>
                     <p class="catalog__block-text">Свежеобжаренный кофе</p>
                     <button class="catalog__block-button">Купить</button>
                 </div>
-                <div class="catalog__block">
-                    <div class="catalog__block-img"><img src="png/catalog2.png"></div>
+                <div class="catalog__block catalog__block__mobile">
+                    <div class="catalog__block-img"><img class="catalog__block-img-png" src="png/catalog2.png"></div>
                     <p class="catalog__block-text">Чай и кофейные напитки</p>
                     <button class="catalog__block-button">Купить</button>
                 </div>
-                <div class="catalog__block">
-                    <div class="catalog__block-img"><img src="png/catalog3.png"></div>
+                <div class="catalog__block catalog__block__mobile">
+                    <div class="catalog__block-img"><img class="catalog__block-img-png" src="png/catalog3.png"></div>
                     <p class="catalog__block-text">Продукция для вендинга</p>
                     <button class="catalog__block-button">Купить</button>
                 </div>
-                <div class="catalog__block">
-                    <div class="catalog__block-img"><img src="png/catalog4.png"></div>
+                <div class="catalog__block catalog__block__mobile">
+                    <div class="catalog__block-img"><img class="catalog__block-img-png" src="png/catalog4.png"></div>
                     <p class="catalog__block-text">Здоровое питание</p>
                     <button class="catalog__block-button">Купить</button>
                 </div>
@@ -62,8 +72,12 @@
         </div>
         <div class="discount">
             <h3 class="discount__title">Товары со скидкой</h3>
-            <p class="discount__subtitle">Наша компания предлагает покупать товар со скидкой не только в дни распродаж</p>
-            <p class="discount__subtitle">или в течение действия ограниченных предложений, но и пользоваться скидками постоянно!</p>
+            <div class="discount__subtitle">
+                <p class="discount__subtitle-text">Наша компания предлагает покупать товар со скидкой не только в дни распродаж</p>
+            </div>
+            <div class="discount__subtitle">
+                <p class="discount__subtitle-text">или в течение действия ограниченных предложений, но и пользоваться скидками постоянно!</p>
+            </div>
             <div class="discount__container">
                 <div class="discount__arrow"><img src="svg/arrow-l.svg"></div>
                 <div class="card__container">
@@ -147,7 +161,7 @@
                         <button class="card__button">В корзину</button>
                     </div>
                 </div>
-                    <div class="card">
+                    <div class="card card__mobile">
                         <nav class="card__header">
                             <div class="card__header-left">
                                 <div class="percent">%</div>
@@ -227,7 +241,7 @@
                             <button class="card__button">В корзину</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card card__mobile">
                         <nav class="card__header">
                             <div class="card__header-left">
                                 <div class="percent">%</div>
@@ -315,28 +329,28 @@
             </div>
         </div>
         <div class="work">
-            <h3 class="work__title">Почему стоит работать <br> именно с нами?</h3>
             <div class="work__container">
                 <div class="work__container-left">
                     <img src="png/work-coffee.png" alt="" class="work__container-img">
                 </div>
                 <div class="work__container-right">
+                    <h3 class="work__title">Почему стоит работать <br> именно с нами?</h3>
                     <div class="work__block">
-                        <img src="svg/work-img1.svg" alt="" class="work__block">
+                        <img src="svg/work-img1.svg" alt="" class="work__block-img">
                         <div class="work__block-text">
                             <p class="work__text-title">Всегда свежая обжарка</p>
                             <p class="work__text-subtitle">Подбор степени обжарки под каждый <br>сорт кофе. Всегда свежая обжарка</p>
                         </div>
                     </div>
                     <div class="work__block">
-                        <img src="svg/work-img2.svg" alt="" class="work__block">
+                        <img src="svg/work-img2.svg" alt="" class="work__block-img">
                         <div class="work__block-text">
                             <p class="work__text-title">Лучшие цены на продукцию</p>
                             <p class="work__text-subtitle">Благодаря крупным объемам производства <br>мы даем лучшие цены на нашу продукцию</p>
                         </div>
                     </div>
                     <div class="work__block">
-                        <img src="svg/work-img3.svg" alt="" class="work__block">
+                        <img src="svg/work-img3.svg" alt="" class="work__block-img">
                         <div class="work__block-text">
                             <p class="work__text-title">Консультации 24/7</p>
                             <p class="work__text-subtitle">Наши специалисты готовы всегда помочь <br>
@@ -354,17 +368,21 @@
             <p class="info__subtitle">Кофе поставляется в контейнерах напрямую с плантаций по всему миру. Компания имеет долгосрочные контракты по поставке продукции. Каждая партия проходит строгий контроль на заводе для проверки зерна. Зеленое зерно обжаривается, проходит процесс дегазации и тут же отправляется клиентам. Наши обжарщики прошли обучение в России и за рубежом.
                 У нас свой подход к каждой партии зерна.</p>
             <p class="info__subtitle">Мы раскрываем вкус каждого сорта кофе.</p>
-            <button class="info__button">Перейти в каталог</button>
+            <button class="info__button">Посмотреть каталог</button>
         </div>
         <div class="news">
             <nav class="news__header">
                 <h3 class="news__title">Новости компании</h3>
-                <a href="#*" class="news__watch-more">Читать все</a>
+                <a href="#*" class="news__watch-more-top">Читать все</a>
             </nav>
+            <div class="news__nav">
+                <img class="news__nav-arrow" src="svg/news__arrow-l.svg">
+                <img class="news__nav-arrow" src="svg/news__arrow-r.svg">
+            </div>
             <div class="news__container">
                 <div class="news__big-block block1">
                     <div class="news__img">
-                        <img src="png/news.png">
+                        <img class="news__img-png" src="png/news.png">
                     </div>
                     <div class="news__text">
                         <h6 class="news__block-title">Танзанийский кофе. Откуда он взялся и почему мы его так любим?</h6>
@@ -399,7 +417,51 @@
                     </div>
                 </div>
             </div>
+            <a href="#*" class="news__watch-more-bottom">Читать все</a>
         </div>
+        <div class="instagram">
+            <div class="instagram__title">Мы в Instagram <img src="svg/insta.svg" alt="" class="instagram__title-img"></div>
+            <div class="instagram__main">
+                <div class="instagram__iphone">
+                    <img class="instagram__iphone-img" src="png/iphone.png">
+                </div>
+                <div class="instagram__container">
+                    <img class="instagram__photo" src="png/instagram-photo.png">
+                    <img class="instagram__photo" src="png/instagram-photo.png">
+                    <img class="instagram__photo instagram__photo__mobile" src="png/instagram-photo.png">
+                    <img class="instagram__photo instagram__photo__mobile" src="png/instagram-photo.png">
+                    <img class="instagram__photo instagram__photo__mobile" src="png/instagram-photo.png">
+                    <img class="instagram__photo instagram__photo__mobile" src="png/instagram-photo.png">
+                </div>
+                <div class="instagram__arrow">
+                    <img src="svg/arrow-inst.svg" alt="" class="instagram__arrow-img">
+                </div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <div class="subscribe__main">
+                <h3 class="subscribe__title">Подписка на новости и рассылку</h3>
+                <p class="subscribe__subtitle">Подпишитесь на нашу рассылку прямо сейчас и будьте в курсе <br> новых поставок, скидок и эксклюзивных предложений.</p>
+                <div class="subscribe__email">
+                    <input  class="subscribe__input" type="email" placeholder="Ваш email">
+                    <button class="subscribe__button" >Подписаться</button>
+                </div>
+                <p class="subscribe__user-text">Нажимая на кнопку “Подписаться”, вы принимаете правила <a href="#*" class="subscribe__user-agreement">пользовательского соглашения</a></p>
+            </div>
+<!--            <div class="subscribe__photo">-->
+<!--                <img src="png/coffee-subscribe.png" alt="" class="subscribe__photo-img">-->
+<!--            </div>-->
+        </div>
+        <footer class="footer">
+            <div class="footer__logo">
+                <a href="index.html" class=""><img class="footer__logo-img" src="svg/logo.svg"></a>
+            </div>
+            <nav class="footer__nav">
+                <a href="#*" class="footer__link">Каталог товаров</a>
+                <a href="#*" class="footer__link">Блог</a>
+                <a href="#*" class="footer__link">Контакты</a>
+            </nav>
+        </footer>
     </div>
 </body>
 </html>
