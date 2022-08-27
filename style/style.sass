@@ -1,7 +1,7 @@
 @font-face
   font-family: "Gilroy"
   src: url("../fonts/Gilroy-Medium.woff")
-  font-weight: 500
+  font-weight: 504
 @font-face
   font-family: "Gilroy"
   src: url("../fonts/Gilroy-Semibold.woff")
@@ -16,29 +16,57 @@
   font-weight: 900
 
 *
+  //@media (max-width: 1820px)
+  //  zoom: 99.5%
+  //@media (max-width: 1720px)
+  //  zoom: 99%
+  //@media (max-width: 1620px)
+  //  zoom: 98%
+  //@media (max-width: 1570px)
+  //  zoom: 97%
+  //@media (max-width: 1520px)
+  //  zoom: 96%
+  //@media (max-width: 1470px)
+  //  zoom: 95.5%
+  //@media (max-width: 1420px)
+  //  zoom: 95%
+  //@media (max-width: 1350px)
+  //  zoom: 94.5%
+  //@media (max-width: 1160px)
+  //  zoom: 100%
+
+
+body
+  max-width: 1920px
+  margin: 0 auto
   @media (max-width: 1820px)
-    zoom: 99.5%
-  @media (max-width: 1720px)
-    zoom: 99%
-  @media (max-width: 1620px)
-    zoom: 98%
-  @media (max-width: 1570px)
-    zoom: 97%
-  @media (max-width: 1520px)
-    zoom: 96%
-  @media (max-width: 1470px)
-    zoom: 95.5%
-  @media (max-width: 1420px)
-    zoom: 95%
-  @media (max-width: 1350px)
-    zoom: 94.5%
+    //max-width: 1520px
+
+
+.page
+  background: url("../png/logo-img.png") top 203px right 100px no-repeat, url("../png/bg1.png") top center no-repeat, url("../png/bg2.png") top 2850px center/ 1920px no-repeat, url("../png/bg3.png") top 3520px center no-repeat, url("../png/bg4.png") top 4944px center no-repeat, url("../png/bg5.png") top 6053px center no-repeat
+  @media (max-width: 1700px)
+    background: url("../png/logo-img.png") top 295px right 70px / 50% no-repeat, url("../png/bg1.png") top center / 1700px auto no-repeat, url("../png/bg2.png") top 2660px center/ 1920px no-repeat, url("../png/bg3.png") top 3414px center no-repeat, url("../png/bg4.png") top 4764px center no-repeat, url("../png/bg5.png") top 5830px center no-repeat
+  @media (max-width: 1530px)
+    background: url("../png/logo-img.png") top 295px right 70px / 50% no-repeat, url("../png/bg1.png") top center / 1700px auto no-repeat, url("../png/bg2.png") top 2550px center/ 1920px 1100px no-repeat, url("../png/bg3.png") top 3170px center no-repeat, url("../png/bg4.png") top 4530px center no-repeat, url("../png/bg5.png") top 5555px center no-repeat
+  @media (max-width: 1370px)
+    background: url("../png/logo-img.png") top 295px right 70px / 50% no-repeat, url("../png/bg1.png") top center / 1700px auto no-repeat, url("../png/bg2.png") top 2550px center/ 1920px 1000px no-repeat, url("../png/bg3.png") top 3260px center / 1500px no-repeat, url("../png/bg4.png") top 4341px center no-repeat, url("../png/bg5.png") top 5400px center no-repeat
+  @media (max-width: 1300px)
+    background: url("../png/logo-img.png") top 295px right 70px / 50% no-repeat, url("../png/bg1.png") top center / 1700px auto no-repeat, url("../png/bg2.png") top 2440px center/ 1920px 1000px no-repeat, url("../png/bg3.png") top 3180px center / 1500px no-repeat, url("../png/bg4.png") top 4221px center no-repeat, url("../png/bg5.png") top 5280px center no-repeat
+  @media (max-width: 1250px)
+    background: url("../png/logo-img.png") top 295px right 15px / 50% no-repeat, url("../png/bg1.png") top center / 1250px 1530px no-repeat, url("../png/bg2.png") top 2440px center/ 1920px 1000px no-repeat, url("../png/bg3.png") top 3180px center / 1500px no-repeat, url("../png/bg4.png") top 4158px center no-repeat, url("../png/bg5.png") top 5280px center no-repeat
   @media (max-width: 1160px)
-    zoom: 100%
-
-
-//img
-//  max-width: 100%
-
+    background: url("../png/bg-iphone2.png") top 5437px right/ 700px no-repeat, url("../png/logo-img.png") top 295px right / 600px no-repeat, url("../png/bg1.png") top center / 1250px 1530px no-repeat, url("../png/bg2.png") top 2680px center/ 1160px 1000px no-repeat, url("../png/bg3.png") top 3340px center / 1500px no-repeat, url("../png/bg4.png") top 4678px center / 1200px auto no-repeat, url("../png/bg5.png") top 5195px center no-repeat
+  @media (max-width: 1000px)
+    background: url("../png/bg-iphone2.png") top 5477px right/ 700px no-repeat,  url("../png/logo-img.png") top 295px right / 600px no-repeat, url("../png/bg1.png") top center / 1000px 1530px no-repeat, url("../png/bg2.png") top 2680px center/ 1160px 1000px no-repeat, url("../png/bg3.png") top 3120px center no-repeat, url("../png/bg4.png") top 4720px center / 1200px auto no-repeat, url("../png/bg5.png") top 5251px center no-repeat
+  @media (max-width: 790px)
+    background: url("../png/bg-iphone2.png") top 5595px right/ 600px no-repeat, url("../png/logo-img.png") top 295px right -80px / 600px no-repeat, url("../png/bg1.png") top center / 790px 1530px no-repeat, url("../png/bg2.png") top 2680px center/ 1160px 1000px no-repeat, url("../png/bg3.png") top 3210px center no-repeat, url("../png/bg4.png") top 4720px center / 1200px auto no-repeat, url("../png/bg5.png") top 5300px center no-repeat
+  @media (max-width: 680px)
+    background: url("../png/bg-iphone2.png") top 4827px right/ 500px no-repeat, url("../png/logo-img.png") top 195px right -140px / 100% no-repeat, url("../png/bg1.png") top center / 680px 1530px no-repeat, url("../png/bg2.png") top 2400px center/ 830px 890px no-repeat, url("../png/bg3.png") top 2650px center no-repeat, url("../png/bg4.png") top 3990px center / 1200px auto no-repeat, url("../png/bg5.png") top 4400px center no-repeat
+  @media (max-width: 560px)
+    background: url("../png/bg-iphone2.png") top 4903px right/ 500px no-repeat, url("../png/logo-img.png") top 230px right -140px / 100% no-repeat, url("../png/bg1.png") top center / 560px 1530px no-repeat, url("../png/bg2.png") top 2400px center/ 830px 890px no-repeat, url("../png/bg3.png") top 2744px center no-repeat, url("../png/bg4.png") top 4191px center / 1200px auto no-repeat, url("../png/bg5.png") top 4580px center no-repeat
+  @media (max-width: 465px)
+    background: url("../png/bg-iphone2.png") top 4113px right/ 500px no-repeat, url("../png/logo-img.png") top 230px right -140px / 120% no-repeat, url("../png/bg1.png") top center / 465px 1530px no-repeat, url("../png/bg2.png") top 2110px center/ 830px 658px no-repeat, url("../png/bg3.png") top 2600px center/ 1000px no-repeat, url("../png/bg4.png") top 3386px center / 1200px auto no-repeat, url("../png/bg5.png") top 3746px center no-repeat
 
 .container
   max-width: 1680px
@@ -50,6 +78,7 @@
   @media (max-width: 465px)
     padding: 0 17px
 .nav
+  font-family: Gilroy
   display: flex
   align-items: center
   justify-content: space-between
@@ -71,6 +100,9 @@
   display: flex
   justify-content: space-between
   width: 563px
+  @media (max-width: 1450px)
+    font-size: 20px
+    width: 500px
   @media (max-width: 1160px)
     display: none
   &__link
@@ -107,7 +139,7 @@
 
 
 .main
-  margin-top: 90px
+  margin: 90px 0 200px
   @media (max-width: 680px)
     margin-top: 40px
   @media (max-width: 465px)
@@ -131,8 +163,10 @@
     font-weight: 900
     font-size: 80px
     position: absolute
-    @media (max-width: 1250px)
-      font-size: 70px
+    @media (max-width: 1700px)
+      font-size: 68px
+    @media (max-width: 1350px)
+      font-size: 56px
     @media (max-width: 1160px)
       font-size: 50px
     @media (max-width: 680px)
@@ -149,7 +183,7 @@
     font-weight: 600
     font-size: 25px
     margin-top: 50px
-    @media (max-width: 1160px)
+    @media (max-width: 1450px)
       font-size: 20px
     @media (max-width: 680px)
       font-size: 16px
@@ -176,7 +210,7 @@
 
     &__mobile
       width: 80%
-      margin: -50px auto 0
+      margin: 205px auto 0
       height: 70px
       border-radius: 5px
       color: #FFF
@@ -209,7 +243,7 @@
     font-weight: 900
     font-size: 50px
     margin: 50px 0 85px
-    @media (max-width: 1160px)
+    @media (max-width: 1710px)
       font-size: 40px
     @media (max-width: 680px)
       font-size: 30px
@@ -222,6 +256,7 @@
     border-radius: 20px
     box-shadow: 0 0 30px rgba(146, 146, 146, 0.2)
     text-align: center
+    background-color: #FFFFFF
     @media (max-width: 1160px)
       width: 50%
     @media (max-width: 680px)
@@ -239,13 +274,15 @@
     @media (max-width: 465px)
       max-height: 220px
   &__block-img-png
+    @media (max-width: 1290px)
+      width: 90%
     @media (max-width: 465px)
       max-width: 100%
   &__block-text
     font-weight: 700
     font-size: 25px
     margin-bottom: 50px
-    @media (max-width: 680px)
+    @media (max-width: 1544px)
       font-size: 20px
     @media (max-width: 465px)
       font-size: 18px
@@ -275,7 +312,7 @@
     display: flex
     justify-content: end
     margin-top: 90px
-    @media (max-width: 1160px)
+    @media (max-width: 1710px)
       font-size: 40px
     @media (max-width: 680px)
       font-size: 30px
@@ -287,9 +324,10 @@
   &__subtitle-text
     font-weight: 500
     font-size: 25px
-    margin: 10px 0
-    @media (max-width: 1160px)
+    margin: 10px
+    @media (max-width: 1530px)
       font-size: 20px
+    @media (max-width: 1160px)
       width: 550px
       text-align: right
       margin: 0
@@ -344,7 +382,13 @@
   box-shadow: 0 0 30px rgba(146, 146, 146, 0.2)
   padding: 21px 38px 0
   margin: 0 10px
-  @media (max-width: 680px)
+  @media (max-width: 1700px)
+    zoom: 85%
+  @media (max-width: 1530px)
+    zoom: 70%
+  @media (max-width: 1300px)
+    zoom: 60%
+  @media (max-width: 1160px)
     zoom: 90%
   @media (max-width: 465px)
     zoom: 80%
@@ -460,7 +504,7 @@
     margin-top: 100px
     font-weight: 900
     font-size: 50px
-    @media (max-width: 1160px)
+    @media (max-width: 1710px)
       font-size: 40px
     @media (max-width: 680px)
       font-size: 30px
@@ -490,13 +534,19 @@
       display: none
   &__container-right
     margin-left: 100px
-    @media (max-width: 1160px)
+    @media (max-width: 1600px)
       margin-left: 0
+      min-width: 545px
+    @media (max-width: 640px)
+      min-width: auto
+  &__container-img
+    @media (max-width: 1600px)
+      max-width: 100%
   &__text-title
     font-weight: 700
     font-size: 30px
     margin: 0 0 20px
-    @media (max-width: 1160px)
+    @media (max-width: 1530px)
       font-size: 25px
     @media (max-width: 680px)
       font-size: 20px
@@ -506,7 +556,7 @@
     font-weight: 500
     font-size: 25px
     margin: 0 0 60px
-    @media (max-width: 1160px)
+    @media (max-width: 1530px)
       font-size: 20px
     @media (max-width: 680px)
       font-size: 16px
@@ -517,16 +567,19 @@
 
 
 .info
+  color: #FFFFFF
   margin-bottom: 180px
   @media (max-width: 1160px)
     margin-bottom: 100px
   @media (max-width: 680px)
     margin-bottom: 50px
+  @media (max-width: 465px)
+    margin-top: 100px
   &__title
     font-weight: 900
     font-size: 50px
     margin: 100px 0
-    @media (max-width: 1160px)
+    @media (max-width: 1730px)
       font-size: 40px
     @media (max-width: 680px)
       font-size: 30px
@@ -539,7 +592,7 @@
     font-size: 25px
     max-width: 1250px
     margin-bottom: 50px
-    @media (max-width: 1160px)
+    @media (max-width: 1530px)
       font-size: 20px
     @media (max-width: 680px)
       font-size: 16px
@@ -586,7 +639,7 @@
   &__title
     font-weight: 900
     font-size: 50px
-    @media (max-width: 1160px)
+    @media (max-width: 1710px)
       font-size: 40px
     @media (max-width: 680px)
       font-size: 30px
@@ -634,6 +687,7 @@
     border-radius: 20px
     box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2)
     display: flex
+    background-color: #FFFFFF
     @media (max-width: 1160px)
       display: block
   &__img-png
@@ -644,6 +698,8 @@
       border-radius: 20px 20px 0 0
   &__text
     padding: 0 80px
+    @media (max-width: 1670px)
+      padding: 0 40px
     @media (max-width: 1160px)
       padding-bottom: 80px
     @media (max-width: 680px)
@@ -652,6 +708,11 @@
     font-weight: 700
     font-size: 25px
     margin-bottom: 30px
+    @media (max-width: 1530px)
+      margin-bottom: 15px
+      font-size: 20px
+    @media (max-width: 1160px)
+      font-size: 25px
     @media (max-width: 680px)
       font-size: 20px
     @media (max-width: 465px)
@@ -660,6 +721,10 @@
     font-weight: 500
     font-size: 20px
     line-height: 130%
+    @media (max-width: 1530px)
+      font-size: 16px
+    @media (max-width: 1160px)
+      font-size: 20px
     @media (max-width: 680px)
       font-size: 16px
     @media (max-width: 465px)
@@ -675,8 +740,11 @@
       font-size: 14px
   &__mini-block
     padding: 0 60px
+    background-color: #FFFFFF
     border-radius: 20px
     box-shadow: 0px 0px 30px rgba(146, 146, 146, 0.2)
+    @media (max-width: 1530px)
+      padding: 0
 
 
 .block1
@@ -710,6 +778,9 @@
 .instagram
   margin-top: 70px
   position: relative
+  background: url("../png/bg-iphone.png") top 100px left -130px no-repeat
+  @media (max-width: 1160px)
+    background: none
   &__title
     font-weight: 900
     font-size: 50px
@@ -734,8 +805,9 @@
   &__main
     display: flex
     position: relative
+    justify-content: end
     @media (max-width: 1160px)
-      justify-content: end
+      justify-content: center
   &__iphone
     margin: 50px 70px
     @media (max-width: 1160px)
@@ -753,8 +825,8 @@
   &__container
     display: grid
     grid-gap: 20px
-    grid-template-columns: 1fr 1fr 1fr
-    position: absolute
+    grid-template-columns: 1fr 1fr
+    //position: absolute
     right: -350px
     margin-top: 50px
     @media (max-width: 1160px)
@@ -784,7 +856,24 @@
       top: 490px
     @media (max-width: 570px)
       top: 425px
-
+  &__coffee
+    display: flex
+    justify-content: end
+    @media (max-width: 1160px)
+      justify-content: center
+  &__coffee-img
+    margin-top: 100px
+    @media (max-width: 1550px)
+      width: 600px
+    @media (max-width: 1000px)
+      margin-top: 100px
+      width: 500px
+    @media (max-width: 920px)
+      margin-top: 200px
+    @media (max-width: 700px)
+      width: 400px
+    @media (max-width: 530px)
+      width: 350px
 
 
 .subscribe
@@ -799,7 +888,7 @@
   &__title
     font-weight: 900
     font-size: 50px
-    margin: 150px 0 50px
+    margin: 0 0 50px
     @media (max-width: 1160px)
       font-size: 40px
     @media (max-width: 680px)
@@ -830,6 +919,8 @@
     border-color: #F3F3F3
     padding-left: 40px
     font-size: 30px
+    @media (max-width: 1300px)
+      width: 800px
     @media (max-width: 1160px)
       border-radius: 5px
       width: 80%
