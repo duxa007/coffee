@@ -1,0 +1,99 @@
+.instagram
+  margin-top: 70px
+  position: relative
+  background: url("../png/bg-iphone.png") top 100px left -130px no-repeat
+  @media (max-width: 1160px)
+    background: none
+  &__title
+    font-weight: 900
+    font-size: 50px
+    display: flex
+    align-items: center
+    @media (max-width: 1160px)
+      font-size: 40px
+    @media (max-width: 680px)
+      font-size: 30px
+    @media (max-width: 465px)
+      font-size: 20px
+  &__title-img
+    padding-left: 54px
+    @media (max-width: 680px)
+      position: absolute
+      padding: 0
+      left: 0
+      top: 55px
+      width: 50px
+    @media (max-width: 465px)
+      width: 40px
+  &__main
+    display: flex
+    position: relative
+    justify-content: end
+    @media (max-width: 1160px)
+      justify-content: center
+  &__iphone
+    margin: 50px 70px
+    @media (max-width: 1160px)
+      margin: 50px -80px 50px 0
+    @media (max-width: 1000px)
+      margin: 50px 0
+    @media (max-width: 680px)
+      text-align: end
+    @media (max-width: 465px)
+      margin-top: 100px
+  &__iphone-img
+    max-width: 100%
+    @media (max-width: 680px)
+      max-width: 70%
+  &__container
+    display: grid
+    grid-gap: 20px
+    grid-template-columns: 1fr 1fr
+    //position: absolute
+    right: -350px
+    margin-top: 50px
+    @media (max-width: 1160px)
+      grid-gap: 0
+      display: flex
+      margin-top: 200px
+      left: 0
+      right: auto
+      justify-content: space-between
+  &__photo
+    @media (max-width: 1160px)
+      width: 47%
+    &__mobile
+      @media (max-width: 1160px)
+        display: none
+  &__arrow
+    position: absolute
+    right: -60px
+    top: 410px
+    cursor: pointer
+    @media (max-width: 1160px)
+      left: 0
+      right: auto
+      top: 580px
+      transform: rotate(180deg)
+    @media (max-width: 680px)
+      top: 490px
+    @media (max-width: 570px)
+      top: 425px
+  &__coffee
+    display: flex
+    justify-content: end
+    @media (max-width: 1160px)
+      justify-content: center
+  &__coffee-img
+    margin-top: 100px
+    @media (max-width: 1550px)
+      width: 600px
+    @media (max-width: 1000px)
+      margin-top: 100px
+      width: 500px
+    @media (max-width: 920px)
+      margin-top: 200px
+    @media (max-width: 700px)
+      width: 400px
+    @media (max-width: 530px)
+      width: 350px

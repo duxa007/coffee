@@ -1,0 +1,269 @@
+.discount__title {
+  font-weight: 900;
+  font-size: 50px;
+  display: flex;
+  justify-content: end;
+  margin-top: 90px;
+}
+@media (max-width: 1710px) {
+  .discount__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 680px) {
+  .discount__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 465px) {
+  .discount__title {
+    font-size: 20px;
+  }
+}
+.discount__subtitle {
+  display: flex;
+  justify-content: end;
+}
+.discount__subtitle-text {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px;
+}
+@media (max-width: 1530px) {
+  .discount__subtitle-text {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1160px) {
+  .discount__subtitle-text {
+    width: 550px;
+    text-align: right;
+    margin: 0;
+  }
+}
+@media (max-width: 680px) {
+  .discount__subtitle-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 465px) {
+  .discount__subtitle-text {
+    font-size: 14px;
+  }
+}
+.discount__container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  justify-content: end;
+}
+@media (max-width: 1160px) {
+  .discount__container {
+    justify-content: center;
+  }
+}
+.discount__watch-more {
+  margin: 58px 150px 50px 0;
+  display: flex;
+  justify-content: end;
+}
+.discount__watch-more__link {
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+}
+@media (max-width: 1160px) {
+  .discount__watch-more__link {
+    display: none;
+  }
+}
+.discount__watch-more__link:hover {
+  color: #F9B300;
+}
+.discount__arrow {
+  cursor: pointer;
+}
+@media (max-width: 1160px) {
+  .discount__arrow {
+    display: none;
+  }
+}
+.discount__arrow:hover {
+  opacity: 75%;
+}
+
+.percent {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 35px;
+  background-color: #F9B300;
+}
+
+.card {
+  width: 324px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(146, 146, 146, 0.2);
+  padding: 21px 38px 0;
+  margin: 0 10px;
+}
+@media (max-width: 1700px) {
+  .card {
+    zoom: 85%;
+  }
+}
+@media (max-width: 1530px) {
+  .card {
+    zoom: 70%;
+  }
+}
+@media (max-width: 1300px) {
+  .card {
+    zoom: 60%;
+  }
+}
+@media (max-width: 1160px) {
+  .card {
+    zoom: 90%;
+  }
+}
+@media (max-width: 465px) {
+  .card {
+    zoom: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    zoom: 73%;
+  }
+}
+@media (max-width: 1160px) {
+  .card__mobile {
+    display: none;
+  }
+}
+.card__container {
+  margin: 0 60px;
+  display: flex;
+}
+.card__header {
+  display: flex;
+  justify-content: space-between;
+}
+.card__header-left {
+  margin-top: -50px;
+}
+.card__header-text {
+  font-weight: 700;
+  font-size: 18px;
+  color: #F9B300;
+}
+.card__header-right {
+  width: 87px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: #FFF7E1;
+  border: 1px solid #F9B300;
+  display: flex;
+  padding: 0 15px 0 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__header-weight {
+  font-weight: 500;
+  font-size: 18px;
+}
+.card__header-arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.card__main {
+  display: flex;
+}
+.card__main-right {
+  padding: 20px 0 0 20px;
+}
+.card__title {
+  font-weight: 900;
+  font-size: 25px;
+  margin: 36px 0 10px;
+}
+.card__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 45px;
+}
+.card__price__old {
+  font-weight: 500;
+  font-size: 25px;
+  color: #C6C6C6;
+  text-decoration: line-through;
+  margin: 0;
+}
+.card__price__new {
+  font-weight: 900;
+  font-size: 35px;
+  color: #222;
+  margin: 0;
+}
+.card__button {
+  background-color: #F9B300;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  width: 178px;
+  height: 48px;
+  cursor: pointer;
+}
+.card__button:hover {
+  opacity: 75%;
+}
+
+.rating {
+  display: flex;
+}
+.rating__text {
+  font-weight: 700;
+  font-size: 20px;
+}
+.rating__feedback {
+  font-weight: 500;
+  font-size: 14px;
+}
+.rating__taste-img {
+  display: flex;
+}
+.rating__taste {
+  margin: 12px 0;
+}
+.rating__taste-point__yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F9B300;
+  margin-right: 3px;
+}
+.rating__taste-point__gray {
+  background-color: #F0F0F0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+/*# sourceMappingURL=discount.css.map */

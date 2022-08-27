@@ -1,0 +1,192 @@
+.discount
+  &__title
+    font-weight: 900
+    font-size: 50px
+    display: flex
+    justify-content: end
+    margin-top: 90px
+    @media (max-width: 1710px)
+      font-size: 40px
+    @media (max-width: 680px)
+      font-size: 30px
+    @media (max-width: 465px)
+      font-size: 20px
+  &__subtitle
+    display: flex
+    justify-content: end
+  &__subtitle-text
+    font-weight: 500
+    font-size: 25px
+    margin: 10px
+    @media (max-width: 1530px)
+      font-size: 20px
+    @media (max-width: 1160px)
+      width: 550px
+      text-align: right
+      margin: 0
+    @media (max-width: 680px)
+      font-size: 16px
+    @media (max-width: 465px)
+      font-size: 14px
+  &__container
+    display: flex
+    align-items: center
+    margin-top: 80px
+    justify-content: end
+    @media (max-width: 1160px)
+      justify-content: center
+  &__watch-more
+    margin: 58px 150px 50px 0
+    display: flex
+    justify-content: end
+    &__link
+      color: #000000
+      font-weight: 500
+      font-size: 20px
+      @media (max-width: 1160px)
+        display: none
+      &:hover
+        color: #F9B300
+  &__arrow
+    cursor: pointer
+    @media (max-width: 1160px)
+      display: none
+    &:hover
+      opacity: 75%
+
+
+
+.percent
+  border-radius: 50%
+  width: 70px
+  height: 70px
+  display: flex
+  justify-content: center
+  align-items: center
+  font-weight: 700
+  font-size: 35px
+  background-color: #F9B300
+
+
+
+.card
+  width: 324px
+  border-radius: 20px
+  box-shadow: 0 0 30px rgba(146, 146, 146, 0.2)
+  padding: 21px 38px 0
+  margin: 0 10px
+  @media (max-width: 1700px)
+    zoom: 85%
+  @media (max-width: 1530px)
+    zoom: 70%
+  @media (max-width: 1300px)
+    zoom: 60%
+  @media (max-width: 1160px)
+    zoom: 90%
+  @media (max-width: 465px)
+    zoom: 80%
+  @media (max-width: 400px)
+    zoom: 73%
+  &__mobile
+    @media (max-width: 1160px)
+      display: none
+  &__container
+    margin: 0 60px
+    display: flex
+  &__header
+    display: flex
+    justify-content: space-between
+  &__header-left
+    margin-top: -50px
+  &__header-text
+    font-weight: 700
+    font-size: 18px
+    color: #F9B300
+  &__header-right
+    width: 87px
+    height: 33px
+    border-radius: 5px
+    background-color: #FFF7E1
+    border: 1px solid #F9B300
+    display: flex
+    padding: 0 15px 0 30px
+    align-items: center
+    justify-content: space-between
+  &__header-weight
+    font-weight: 500
+    font-size: 18px
+  &__header-arrow
+    border: solid black
+    border-width: 0 3px 3px 0
+    display: inline-block
+    padding: 3px
+    transform: rotate(45deg)
+    -webkit-transform: rotate(45deg)
+  &__main
+    display: flex
+  &__main-right
+    padding: 20px 0 0 20px
+  &__title
+    font-weight: 900
+    font-size: 25px
+    margin: 36px 0 10px
+  &__subtitle
+    font-weight: 500
+    font-size: 18px
+    margin: 0 0 8px
+  &__footer
+    display: flex
+    justify-content: space-between
+    align-items: end
+    margin-bottom: 45px
+  &__price
+    &__old
+      font-weight: 500
+      font-size: 25px
+      color: #C6C6C6
+      text-decoration: line-through
+      margin: 0
+    &__new
+      font-weight: 900
+      font-size: 35px
+      color: #222
+      margin: 0
+  &__button
+    background-color: #F9B300
+    border-radius: 5px
+    font-weight: 700
+    font-size: 18px
+    color: #FFFFFF
+    width: 178px
+    height: 48px
+    cursor: pointer
+    &:hover
+      opacity: 75%
+
+
+
+.rating
+  display: flex
+  &__text
+    font-weight: 700
+    font-size: 20px
+  &__feedback
+    font-weight: 500
+    font-size: 14px
+  &__taste-img
+    display: flex
+  &__taste
+    margin: 12px 0
+  &__taste-point
+    &__yellow
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background-color: #F9B300
+      margin-right: 3px
+    &__gray
+      background-color: #F0F0F0
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      margin-right: 3px

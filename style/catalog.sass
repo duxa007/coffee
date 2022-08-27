@@ -1,0 +1,70 @@
+.catalog
+  &__container
+    display: flex
+    justify-content: space-between
+    @media (max-width: 1160px)
+      justify-content: center
+  &__title
+    font-weight: 900
+    font-size: 50px
+    margin: 50px 0 85px
+    @media (max-width: 1710px)
+      font-size: 40px
+    @media (max-width: 680px)
+      font-size: 30px
+      margin: 50px 0 65px
+    @media (max-width: 465px)
+      font-size: 20px
+      margin: 50px 0 30px
+  &__block
+    width: 24%
+    border-radius: 20px
+    box-shadow: 0 0 30px rgba(146, 146, 146, 0.2)
+    text-align: center
+    background-color: #FFFFFF
+    @media (max-width: 1160px)
+      width: 50%
+    @media (max-width: 680px)
+      width: 70%
+    @media (max-width: 540px)
+      width: 85%
+    &__mobile
+      @media (max-width: 1160px)
+        display: none
+  &__block-img
+    height: 300px
+    display: flex
+    justify-content: center
+    align-items: center
+    @media (max-width: 465px)
+      max-height: 220px
+  &__block-img-png
+    @media (max-width: 1290px)
+      width: 90%
+    @media (max-width: 465px)
+      max-width: 100%
+  &__block-text
+    font-weight: 700
+    font-size: 25px
+    margin-bottom: 50px
+    @media (max-width: 1544px)
+      font-size: 20px
+    @media (max-width: 465px)
+      font-size: 18px
+  &__block-button
+    width: 85%
+    height: 60px
+    border-radius: 5px
+    color: #FFF
+    font-weight: 700
+    font-size: 25px
+    background-color: #F9B300
+    margin-bottom: 65px
+    cursor: pointer
+    @media (max-width: 680px)
+      font-size: 20px
+    @media (max-width: 465px)
+      font-size: 18px
+      height: 50px
+    &:hover
+      opacity: 75%

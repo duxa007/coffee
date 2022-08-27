@@ -1,0 +1,60 @@
+.page {
+  background: url("../png/logo-img.png") top 203px right 100px no-repeat, url("../png/bg1.png") top center no-repeat, url("../png/bg2.png") top 2850px center/1920px no-repeat, url("../png/bg3.png") top 3520px center no-repeat, url("../png/bg4.png") top 4944px center no-repeat, url("../png/bg5.png") top 6053px center no-repeat;
+}
+@media (max-width: 1700px) {
+  .page {
+    background: url("../png/logo-img.png") top 295px right 70px/50% no-repeat, url("../png/bg1.png") top center/1700px auto no-repeat, url("../png/bg2.png") top 2660px center/1920px no-repeat, url("../png/bg3.png") top 3414px center no-repeat, url("../png/bg4.png") top 4764px center no-repeat, url("../png/bg5.png") top 5830px center no-repeat;
+  }
+}
+@media (max-width: 1530px) {
+  .page {
+    background: url("../png/logo-img.png") top 295px right 70px/50% no-repeat, url("../png/bg1.png") top center/1700px auto no-repeat, url("../png/bg2.png") top 2550px center/1920px 1100px no-repeat, url("../png/bg3.png") top 3170px center no-repeat, url("../png/bg4.png") top 4530px center no-repeat, url("../png/bg5.png") top 5555px center no-repeat;
+  }
+}
+@media (max-width: 1370px) {
+  .page {
+    background: url("../png/logo-img.png") top 295px right 70px/50% no-repeat, url("../png/bg1.png") top center/1700px auto no-repeat, url("../png/bg2.png") top 2550px center/1920px 1000px no-repeat, url("../png/bg3.png") top 3260px center/1500px no-repeat, url("../png/bg4.png") top 4341px center no-repeat, url("../png/bg5.png") top 5400px center no-repeat;
+  }
+}
+@media (max-width: 1300px) {
+  .page {
+    background: url("../png/logo-img.png") top 295px right 70px/50% no-repeat, url("../png/bg1.png") top center/1700px auto no-repeat, url("../png/bg2.png") top 2440px center/1920px 1000px no-repeat, url("../png/bg3.png") top 3180px center/1500px no-repeat, url("../png/bg4.png") top 4221px center no-repeat, url("../png/bg5.png") top 5280px center no-repeat;
+  }
+}
+@media (max-width: 1250px) {
+  .page {
+    background: url("../png/logo-img.png") top 295px right 15px/50% no-repeat, url("../png/bg1.png") top center/1250px 1530px no-repeat, url("../png/bg2.png") top 2440px center/1920px 1000px no-repeat, url("../png/bg3.png") top 3180px center/1500px no-repeat, url("../png/bg4.png") top 4158px center no-repeat, url("../png/bg5.png") top 5280px center no-repeat;
+  }
+}
+@media (max-width: 1160px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 5437px right/700px no-repeat, url("../png/logo-img.png") top 295px right/600px no-repeat, url("../png/bg1.png") top center/1250px 1530px no-repeat, url("../png/bg2.png") top 2680px center/1160px 1000px no-repeat, url("../png/bg3.png") top 3340px center/1500px no-repeat, url("../png/bg4.png") top 4678px center/1200px auto no-repeat, url("../png/bg5.png") top 5195px center no-repeat;
+  }
+}
+@media (max-width: 1000px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 5477px right/700px no-repeat, url("../png/logo-img.png") top 295px right/600px no-repeat, url("../png/bg1.png") top center/1000px 1530px no-repeat, url("../png/bg2.png") top 2680px center/1160px 1000px no-repeat, url("../png/bg3.png") top 3120px center no-repeat, url("../png/bg4.png") top 4720px center/1200px auto no-repeat, url("../png/bg5.png") top 5251px center no-repeat;
+  }
+}
+@media (max-width: 790px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 5595px right/600px no-repeat, url("../png/logo-img.png") top 295px right -80px/600px no-repeat, url("../png/bg1.png") top center/790px 1530px no-repeat, url("../png/bg2.png") top 2680px center/1160px 1000px no-repeat, url("../png/bg3.png") top 3210px center no-repeat, url("../png/bg4.png") top 4720px center/1200px auto no-repeat, url("../png/bg5.png") top 5300px center no-repeat;
+  }
+}
+@media (max-width: 680px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 4827px right/500px no-repeat, url("../png/logo-img.png") top 195px right -140px/100% no-repeat, url("../png/bg1.png") top center/680px 1530px no-repeat, url("../png/bg2.png") top 2400px center/830px 890px no-repeat, url("../png/bg3.png") top 2650px center no-repeat, url("../png/bg4.png") top 3990px center/1200px auto no-repeat, url("../png/bg5.png") top 4400px center no-repeat;
+  }
+}
+@media (max-width: 560px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 4903px right/500px no-repeat, url("../png/logo-img.png") top 230px right -140px/100% no-repeat, url("../png/bg1.png") top center/560px 1530px no-repeat, url("../png/bg2.png") top 2400px center/830px 890px no-repeat, url("../png/bg3.png") top 2744px center no-repeat, url("../png/bg4.png") top 4191px center/1200px auto no-repeat, url("../png/bg5.png") top 4580px center no-repeat;
+  }
+}
+@media (max-width: 465px) {
+  .page {
+    background: url("../png/bg-iphone2.png") top 4113px right/500px no-repeat, url("../png/logo-img.png") top 230px right -140px/120% no-repeat, url("../png/bg1.png") top center/465px 1530px no-repeat, url("../png/bg2.png") top 2110px center/830px 658px no-repeat, url("../png/bg3.png") top 2600px center/1000px no-repeat, url("../png/bg4.png") top 3386px center/1200px auto no-repeat, url("../png/bg5.png") top 3746px center no-repeat;
+  }
+}
+
+/*# sourceMappingURL=page-background.css.map */

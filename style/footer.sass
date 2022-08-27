@@ -1,0 +1,33 @@
+.footer
+  margin-top: 180px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  position: relative
+  @media (max-width: 1160px)
+    justify-content: center
+    margin-top: 100px
+  &__nav
+    width: 560px
+    display: flex
+    justify-content: space-between
+    @media (max-width: 680px)
+      max-width: 370px
+  &__logo
+    cursor: pointer
+    @media (max-width: 1160px)
+      position: absolute
+      top: 60px
+    @media (max-width: 680px)
+      max-width: 140px
+  &__logo-img
+    max-width: 100%
+  &__link
+    text-decoration: none
+    font-weight: 500
+    font-size: 25px
+    color: black
+    @media (max-width: 680px)
+      font-size: 16px
+    &:hover
+      color: #F9B300
